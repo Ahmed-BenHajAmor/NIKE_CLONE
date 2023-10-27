@@ -1,0 +1,38 @@
+.sales{
+    padding: 2em 2em;
+}
+
+.sub-sale{
+    margin-top: 4em;
+}
+
+.products{
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+
+.title{
+    margin-bottom: 1em;
+}
+
+.products::-webkit-scrollbar {
+    height: 6px;
+}
+  
+.products::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+.products::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 6px; /* Round the corners of the thumb */
+
+}
+
+.products::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
+

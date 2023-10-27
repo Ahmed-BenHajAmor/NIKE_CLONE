@@ -1,0 +1,6 @@
+export {default as Kids} from './kids'
+export {default as Men} from './men'
+export {default as Navbar} from './navbar'
+export {default as Sales} from './sales'
+export {default as Women} from './women'
+export {default as Bag} from './bag'

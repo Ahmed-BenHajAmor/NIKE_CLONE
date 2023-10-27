@@ -1,0 +1,97 @@
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn button{
+    border: 2 black solid;
+    padding: 1em 2em;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.card-btn button:hover{
+    background-color: #fff;
+    color: black;
+}
+.btn{
+    width: fit-content;
+    margin-top: 8px;
+}
+.card{
+    min-width: 10em;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.card img{
+    width: 315%;
+    
+}
+
+.card-img{
+    height: 10em;
+    overflow: hidden;
+}
+
+.bag-card{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.titlePrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bag-card-price{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bag-card-img{
+    width: 100px;
+    overflow: hidden;
+}
+
+.bag-card-img img{
+    width: 300%;
+}
+
+.bag-btn button{
+    font-size: 25px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #797878;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.bag-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}

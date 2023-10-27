@@ -1,0 +1,99 @@
+.kids{
+    display: flex;
+    align-items: center;       
+    background-image: url('src/assets/kids-img-bg.png');
+    overflow: hidden;
+}
+
+.text-kids div{
+    max-width: 650px;
+}
+
+
+
+.text-kids{
+    width: 90%;
+    position: relative;
+    top: 0;
+}
+
+.text-kids a{
+    background-color: #171717;
+    color: white;
+} 
+
+.kids-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.img1{
+    position: absolute;
+
+    z-index: 12;
+}
+
+.img1 img{
+    width: 500px;
+}
+
+.img2{
+    position: relative;
+    width: 200px;
+    border: 10px #000;
+    height: 255px;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+}
+
+.img2 img{
+    height: 100%;
+    
+}
+
+
+@media screen and (max-width: 1100px) {
+    .kids-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-kids h1{
+        font-size: 30px;
+    }
+    .text-kids p, .text-kids a{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .text-kids h1{
+        font-size: 20px;
+    }
+    .text-kids p, .text-kids a{
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-height: 650px) {
+    .text-kids h1{
+        font-size: 30px;
+    }
+    .text-kids p, .text-kids a{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .text-kids h1{
+        font-size: 20px;
+    }
+    .text-kids p, .text-kids a{
+        font-size: 15px !important;
+    }
+}
+

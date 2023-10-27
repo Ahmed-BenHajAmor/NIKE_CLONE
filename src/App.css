@@ -1,0 +1,12 @@
+section{
+    padding: 0 2em;
+    
+}
+
+.sec{
+    position: relative;
+    top: 92px;
+    padding: 1em 2em;
+    height: calc(100vh - 92.5px);
+}
+

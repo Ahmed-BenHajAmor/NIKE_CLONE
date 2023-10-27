@@ -1,0 +1,50 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    position: fixed;
+    width: 100vw;
+    z-index: 15;
+    background-color: #fff;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links li{
+    padding: .2em .7em;
+}
+
+.links ul{
+    display: flex;
+    
+}
+
+.links a{
+    color: black;
+    font-size: 25px;
+    transition: .2s ease;
+}
+
+.links a:hover{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bag{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.bag img{
+    cursor: pointer;
+    width: 112.5px;
+    height: 75.25px;
+}
+

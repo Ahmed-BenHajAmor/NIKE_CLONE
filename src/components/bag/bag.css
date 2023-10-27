@@ -1,0 +1,65 @@
+.slidingBagContainer{
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    padding-top: 120px;
+    width: fit-content;
+    padding: 120px 20px 20px 20px;
+    background-color: transparent;
+    transition: .7s ease;
+    z-index: 13;
+}
+
+.show{
+    transform: translateX(0);
+}
+
+.hide{
+    transform: translateX(544px);
+}
+
+.subContainer{
+    width: 18em;
+    height: 100%;
+    border: 1px black solid;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bagProducts{
+    overflow-y: scroll;
+    height: 90%;
+    border: 1px #000 solid;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bagProducts::-webkit-scrollbar {
+    width: 7px;
+}
+  
+.bagProducts::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+.bagProducts::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 6px; /* Round the corners of the thumb */
+
+}
+
+.bagProducts::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
+
+.bag-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy{
+    margin: 0;
+}
