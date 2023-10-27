@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
 import { Context } from '../../App'
+import  logo  from '/home/ahmed/ReactProject/NikeClone/Nike-clone/src/assets/logo.png';
+import  bag  from '/home/ahmed/ReactProject/NikeClone/Nike-clone/src/assets/bag.png';
 
 function Navbar() {
   const {dispatch} = useContext(Context)
@@ -11,7 +13,7 @@ function Navbar() {
   return (
     <section className='navbar'>
       <div className="logo">
-        <img src="src/assets/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       
       <div className="links">
@@ -24,7 +26,7 @@ function Navbar() {
       </div>
       
       <div onClick={handleBagClick} className="bag">
-        <img src="src/assets/bag.png" alt="bag" />
+        <img src={bag} alt="bag" />
       </div>
       
     </section>
