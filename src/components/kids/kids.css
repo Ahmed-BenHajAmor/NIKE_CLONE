@@ -1,7 +1,7 @@
 .kids{
     display: flex;
     align-items: center;       
-    background-image: url('src/assets/kids-img-bg.png');
+  
     overflow: hidden;
 }
 
