@@ -36,3 +36,16 @@
     background: #555; /* Thumb color on hover */
 }
 
+@media screen and ((max-width: 500px) or (max-height: 500px)) {
+    .sales{
+        padding: .9em .6em;
+    }
+    .products::-webkit-scrollbar {
+        height: 12px;
+    }
+    .sub-sale:nth-child(2){
+        margin-top: .9em;
+    }
+}
+
+

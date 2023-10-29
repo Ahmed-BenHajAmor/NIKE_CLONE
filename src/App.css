@@ -10,3 +10,11 @@ section{
     height: calc(100vh - 92.5px);
 }
 
+@media screen and (max-width: 500px) {
+
+    .sec{
+        padding: 1em .6em;
+
+    }
+}
+

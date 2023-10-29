@@ -18,9 +18,12 @@ export const Card = ({img, title, price})=>{
   }
     return(
       <div className="card">
-        <div className='card-img'><LazyLoadImage loading='lazy' effect="blur" src={img} alt="big shoe 3" /></div>
-        <div className='card-title'><p>{title}</p></div>
-        <div className='price'><p>dt {price}</p></div>
+        <div className='img-text-price-card'>
+          <div className='card-img'><LazyLoadImage loading='lazy' effect="blur" src={img} alt="big shoe 3" /></div>
+          <div className='card-title'><p>{title}</p></div>
+          <div className='price'><p>dt {price}</p></div>
+        </div>
+        
         <div className='card-btn btn'><button onClick={()=>handleButtonClick(price)}>ADD TO BAG</button></div>
       </div>
     )

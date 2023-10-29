@@ -1,7 +1,4 @@
-.price{
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 .btn button{
     border: 2 black solid;
@@ -38,7 +35,11 @@
     font-size: 18px;
     font-weight: lighter;
 }
-
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
 .card img{
     width: 315%;
     
@@ -94,4 +95,38 @@
     align-items: center;
     justify-content: center;
     width: 100px;
+}
+
+@media screen and ((max-width: 500px) or (max-height: 500px)) {
+    .card{
+        min-width: 7em;
+        margin-bottom: 0;
+        
+    
+    }
+    .img-text-price-card{
+        height: fit-content;
+    }
+    .card-img{
+        height: 7em;
+
+    }
+    .btn button{
+        padding: .8em 1.2em;
+        
+    }
+    .btn{
+        display: flex;
+        justify-self: end;
+    }
+    .card-title{
+        font-size: 17px;
+        font-weight: lighter;
+    }
+    .price{
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 6px;
+    }
+    
 }
