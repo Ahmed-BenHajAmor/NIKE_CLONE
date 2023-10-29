@@ -17,7 +17,7 @@ function Men() {
         </div>
       </div>
       <div className="men-img">
-        <LazyLoadImage effect='blur' loading="lazy" src="{menImg} alt="Nike sneakers" />
+        <LazyLoadImage effect='blur' loading="lazy" src={menImg} alt="Nike sneakers" />
       </div>
     </section>
   )
