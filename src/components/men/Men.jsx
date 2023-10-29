@@ -2,7 +2,7 @@ import React from 'react'
 import './men.css'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import menImg from '/src/assets/header-img.png'
+import menImg from '/src/assets/header-img.webp'
 
 function Men() {
   return (
