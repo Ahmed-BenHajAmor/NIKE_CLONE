@@ -19,7 +19,7 @@ function App() {
       try {
         const menData = await AllMensShoes();
         const womenData = await AllWomensShoes();
-        setData([menData.slice(1), womenData.slice(1)]);
+        setData([menData.slice(3), womenData.slice(3)]);
       } catch (error) {
         console.error('Error fetching data:', error);
       }

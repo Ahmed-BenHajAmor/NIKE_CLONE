@@ -7,7 +7,6 @@ export const AllMensClothes = async () => {
 
 export const AllMensShoes = async () => {
     var response = await axios.get('https://raw.githubusercontent.com/JacobTBralish/NikeData/master/AllMensShoesPg1-6.json');
-    console.log(response)
     return response.data;
 }
 
