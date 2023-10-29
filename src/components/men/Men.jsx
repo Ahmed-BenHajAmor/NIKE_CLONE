@@ -2,6 +2,7 @@ import React from 'react'
 import './men.css'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import menImg from '/src/assets/header-img.png'
 
 function Men() {
   return (
@@ -16,7 +17,7 @@ function Men() {
         </div>
       </div>
       <div className="men-img">
-        <LazyLoadImage effect='blur' loading="lazy" src="src/assets/header-img.png" alt="Nike sneakers" />
+        <LazyLoadImage effect='blur' loading="lazy" src="{menImg} alt="Nike sneakers" />
       </div>
     </section>
   )
