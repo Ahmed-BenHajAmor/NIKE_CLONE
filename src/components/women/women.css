@@ -1,5 +1,5 @@
 .women{
-    background-image: url('/home/ahmed/ReactProject/NikeClone/Nike-clone/src/assets/women-img-bg.png');
+    background-image: url('/src/assets/women-img-bg.png');
     display: flex;
     justify-content: right;
     align-items: center;

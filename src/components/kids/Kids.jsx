@@ -2,8 +2,8 @@ import React from 'react'
 import './kids.css'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import kidsImg1 from '/home/ahmed/ReactProject/NikeClone/Nike-clone/src/assets/kids-img 1.png'
-import kidsImg2 from '/home/ahmed/ReactProject/NikeClone/Nike-clone/src/assets/kids-img 2.png'
+import kidsImg1 from '/src/assets/kids-img 1.png'
+import kidsImg2 from '/src/assets/kids-img 2.png'
 
 function Kids() {
   return (
