@@ -27,7 +27,6 @@ function App() {
   
     fetchData();
   }, []);
-  console.log(data)
   return (
     <BrowserRouter>
       <Context.Provider value={{data, state, dispatch}}>
