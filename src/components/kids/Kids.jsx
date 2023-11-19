@@ -1,9 +1,8 @@
-import React from 'react'
-import './kids.css'
-import { Link } from 'react-router-dom'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import kidsImg1 from '/src/assets/kids-img 1.webp'
-import kidsImg2 from '/src/assets/kids-img 2.webp'
+import React from 'react';
+import './kids.css';
+import { Link } from 'react-router-dom';
+
+
 
 function Kids() {
   return (
@@ -19,13 +18,6 @@ function Kids() {
       </div>
 
       <div className="kids-img">
-        <div className="img1">
-          <LazyLoadImage effect='blur' loading='lazy'  src={kidsImg1} alt="img" />
-        </div>
-        
-        <div className="img2">
-          <LazyLoadImage effect='blur' loading="lazy" src={kidsImg2} alt="img" />
-        </div>
         
       </div>
     </section>
