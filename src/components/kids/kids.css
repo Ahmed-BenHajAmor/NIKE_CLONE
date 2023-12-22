@@ -1,10 +1,11 @@
 .kids{
     display: flex;
     align-items: center;       
-  
+    justify-content: center;
     overflow: hidden;
     padding-right: 0;
 }
+
 
 .text-kids div{
     max-width: 650px;

@@ -5,6 +5,8 @@ product because the availble api's does not
 
 export function reducer(state, action) {
     switch (action.type) {
+      case 'CHANGE_BAR':
+        return { ...state, showBar: !state.showBar };
       case 'CHANGE_BAG':
         return { ...state, showBag: !state.showBag };
       case 'ADD_TO_BAG':

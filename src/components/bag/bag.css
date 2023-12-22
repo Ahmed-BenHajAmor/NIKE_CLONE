@@ -2,7 +2,6 @@
     position: fixed;
     right: 0;
     height: 100vh;
-    padding-top: 120px;
     width: fit-content;
     padding: 120px 20px 20px 20px;
     background-color: transparent;
@@ -63,3 +62,15 @@
 .buy{
     margin: 0;
 }
+
+@media screen and (max-width: 900px){
+    .subContainer{
+        width: 100vw;
+    }
+    .slidingBagContainer{
+        padding: 120px 0 0 0;
+    }
+    .hide{
+        transform: translateX(100vw);
+    }
+} 

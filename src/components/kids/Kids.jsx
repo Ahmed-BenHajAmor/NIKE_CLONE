@@ -3,7 +3,6 @@ import './kids.css';
 import { Link } from 'react-router-dom';
 
 
-
 function Kids() {
   return (
     <section className="sec kids">
@@ -15,10 +14,10 @@ function Kids() {
           LEARN MORE ABOUT OUR JOURNEY TO A BETTER FUTURE</p>
           <Link to="/sales">SHOP</Link>
         </div>  
+      
       </div>
-
       <div className="kids-img">
-        
+   
       </div>
     </section>
   )
