@@ -130,3 +130,18 @@
     }
     
 }
+
+@media screen and (max-width: 450px) {
+    .bag-card-img{
+        width: 80px;
+    }
+    .bag-card-price p{
+        font-size: 13px;
+    }
+    .bag-card-title{
+        font-size: 15px;
+    }
+    .bag-btn{
+        width: 70px;
+    }
+}

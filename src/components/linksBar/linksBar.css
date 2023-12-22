@@ -4,9 +4,8 @@
     background-color: white;
     z-index: 998;
     position: fixed;
-    top: -50px;
+    top: -55px;
     width: 100%;
-    
 }
 .linksRes ul{
     
@@ -33,5 +32,10 @@
 @media screen and ((max-width: 400px)){
     .showBar{
         transform: translateY(120px);
+    }
+}
+@media screen and ((max-height: 550px)){
+    .showBar{
+        transform: translateY(100px);
     }
 }

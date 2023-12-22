@@ -37,7 +37,7 @@ function Navbar() {
       </div>
 
       <div onClick={handleBarClick} className="bars">
-        <FaBars fontSize="40px"/>
+        <FaBars className='fabars'/>
       </div>
     </section>
   )

@@ -16,7 +16,7 @@ function Bag({show}) {
           }
         </div>
         <div className="bag-text">
-          <div><p>Total Price: {state.totalPrice} dt</p></div>
+          <div className='totalPrice'><p>Total Price: {state.totalPrice} dt</p></div>
           <div className="btn buy"><button className='buy'>BUY</button></div>
 
         </div>
