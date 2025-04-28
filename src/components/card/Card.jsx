@@ -4,7 +4,10 @@ import { Context } from '../../App'
 import { FaTrash } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+
 export const Card = ({img, title, price})=>{
+  
+  
   const {dispatch} = useContext(Context)
   const handleButtonClick = (price)=>{
     const product = {
@@ -19,7 +22,7 @@ export const Card = ({img, title, price})=>{
     return(
       <div className="card">
         <div className='img-text-price-card'>
-          <div className='card-img'><LazyLoadImage loading='lazy' effect="blur" src={img} alt="big shoe 3" /></div>
+          <div className='card-img'><img loading='lazy' effect="blur" src={img} alt="big shoe 3" /></div>
           <div className='card-title'><p>{title}</p></div>
           <div className='price'><p>{price} dt</p></div>
         </div>
