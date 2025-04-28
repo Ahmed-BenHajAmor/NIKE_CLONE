@@ -44,10 +44,14 @@
     width: 315%;
     
 }
-
+.card-img img{
+    width: 100%;
+    
+}
 .card-img{
     height: 10em;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .bag-card{
